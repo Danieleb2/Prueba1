@@ -30,17 +30,77 @@
         <center>
             <h1>EJEMPLO FORMULARIO</h1>
             <form>
-                <label id="label_nombre_libro">ingresar nombres</label>
+                <label id="label_nombre_libro" for="nombre_libro" style="width: ;300px">ingresar nombres</label>
                 <input id="nombre_libro" type="text" placeholder="ingresar nombres en el placeholder" required="true" size="50px"   /> 
                 <br /><br />
-                <label id="label_publicacion">ingresar año publicacion</label>
+                <label id="label_publicacion" for="publicacion">ingresar año publicacion</label>
                 <input id="publicacion" type="number" placeholder="ingresar año de publicacion" required="true" size="50px"     />
+                <br /><br />
+                <label id="label_correo" for="correo">correo electronico</label>
+                <input id="correo" type="email" placeholder="ingrese correo" required="false" size="50px"     />
+                <input type="submit" value="guardar datos">
+                <br /><br />
+                <label id="label_estado" for="estado">estado libro</label>
+                <select id="estado" size="4px">
+                <option value="1">En reparacion</option>
+                <option value="2">Prestado</option>
+                <option value="3" selected>Disponible</option>
+                </select>
+                <br /><br />
+                <label id="label_fecha" for="fecha">Fecha</label>
+                <input type="date" id="fecha" size="50px"/>
+                <br /><br />
+                <label id="observaciones" for="observaciones">Observaciones</label>
+                <textarea id="observaciones" cols="50" rows="5"></textarea>
+                <br /><br />
+                <label id="genero">Genero</label>
+                <label id="Masculino">Masculino</label>
+                <input type="radio" name="genero" value="masculino">
+                <label id="femenino">Femenino</label>
+                <input type="radio" name="genero" value="Femenino">
+                <br /><br />
+                <label id="matematicas">matematicas</label>
+                <input type="checkbox" name="materias" value="matematicas">
+                <label id="Quimica">Quimica</label>
+                <input type="checkbox" name="materias" value="Quimica">
+                <label id="Fisica">Fisica</label>
+                <input type="checkbox" name="materias" value="Fisica">
 
-
+                </input>
+                <br /><br />
+                <input type="submit" value="Guardar Datos"  />
             </form>
+            <!--Crear tabla-->
+            <br /><br />
+            <table align="center" bgcolor="#008080" border="2" width="200px">
+                <tr>
+                    <th></th>
+                    <th>LUNES</th>
+                    <th>MARTES</th>
+                    <th>MIERCOLES</th>
+                    <th>JUEVES</th>
+                    <th>VIERNES</th>
+                </tr>
+
+                <tr>
+                    <td>LUNES</td>
+                    <td>MARTES</td>
+                    <td>MIERCOLES</td>
+                    <td>JUEVES</td>
+                    <td>VIERNES</td>
+                </tr>
+
+            </table>
+            <br /><br />
+
         </center>
+
     <main>
-            <footer>
-                <p></p>
+    <footer>
+                <p> Texto 1 que va en pie de pagina</p>
+                <p> Texto 2 que va en pie de pagina</p>
+    
+    </footer>
+
 </body>
 </html>
