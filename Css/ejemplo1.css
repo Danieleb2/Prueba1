@@ -1,0 +1,19 @@
+body{
+background-color: darksalmon;
+font-size: 20px;
+}
+
+header{
+    background-color: lightsalmon;
+}
+
+main{
+    background-color: brown;
+
+}
+
+h1{
+    color: black;
+    background-color: rgb(202, 38, 9);
+    font-size: 40px;
+}

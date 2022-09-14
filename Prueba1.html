@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Primer ejercicio</title>
+    <!--llamar una hoja de estilos de otro archivo(recomendado)-->
+    <link rel="stylesheet" href="css/ejemplo1.css" />
+    <style>
+        input[type=text]{
+            width: 300px
+        }
+        input[type=email]{
+            width: 300px
+        }
+        input[type=number]{
+            width: 300px
+        }
+        input[type=date]{
+            width: 300px
+        }
+        select{
+            width: 300px
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -30,36 +50,36 @@
         <center>
             <h1>EJEMPLO FORMULARIO</h1>
             <form>
-                <label id="label_nombre_libro" for="nombre_libro" style="width: ;300px">ingresar nombres</label>
-                <input id="nombre_libro" type="text" placeholder="ingresar nombres en el placeholder" required="true" size="50px"   /> 
+                <label id="label_nombre_libro" for="nombre_libro" style="width: 40%;color: black; background-color: brown;>Ingresar nombres</label>
+                <input id="nombre_libro" type="text" placeholder="Ingresar nombres en el placeholder" required="true" size="50px"   /> 
                 <br /><br />
-                <label id="label_publicacion" for="publicacion">ingresar año publicacion</label>
-                <input id="publicacion" type="number" placeholder="ingresar año de publicacion" required="true" size="50px"     />
+                <label id="label_publicacion" for="publicacion">Ingresar año publicacion</label>
+                <input id="Publicacion" type="number" placeholder="Ingresar año de publicacion" required="true" size="50px"     />
                 <br /><br />
                 <label id="label_correo" for="correo">correo electronico</label>
-                <input id="correo" type="email" placeholder="ingrese correo" required="false" size="50px"     />
-                <input type="submit" value="guardar datos">
+                <input id="Correo" type="email" placeholder="Ingresar correo" size="50px"     />
                 <br /><br />
-                <label id="label_estado" for="estado">estado libro</label>
-                <select id="estado" size="4px">
-                <option value="1">En reparacion</option>
-                <option value="2">Prestado</option>
-                <option value="3" selected>Disponible</option>
+                <label id="label_estado" for="estado">Estado libro</label>
+                <select id="Estado">
+                    <option value="1">En reparacion</option>
+                    <option value="2">Prestado</option>
+                    <option value="3" selected>Disponible</option>
                 </select>
                 <br /><br />
-                <label id="label_fecha" for="fecha">Fecha</label>
+                <label id="fecha" for="fecha">Fecha</label>
                 <input type="date" id="fecha" size="50px"/>
                 <br /><br />
                 <label id="observaciones" for="observaciones">Observaciones</label>
-                <textarea id="observaciones" cols="50" rows="5"></textarea>
+                <textarea id="observaciones" cols="50" rows="5" required></textarea>
                 <br /><br />
                 <label id="genero">Genero</label>
                 <label id="Masculino">Masculino</label>
-                <input type="radio" name="genero" value="masculino">
-                <label id="femenino">Femenino</label>
+                <input type="radio" name="genero" value="Masculino">
+                <label id="Femenino">Femenino</label>
                 <input type="radio" name="genero" value="Femenino">
                 <br /><br />
-                <label id="matematicas">matematicas</label>
+                <label id="materias" for="materias">ingresar materias</label>
+                <label id="Matematicas">Matematicas</label>
                 <input type="checkbox" name="materias" value="matematicas">
                 <label id="Quimica">Quimica</label>
                 <input type="checkbox" name="materias" value="Quimica">
@@ -74,7 +94,7 @@
             <br /><br />
             <table align="center" bgcolor="#008080" border="2" width="200px">
                 <tr>
-                    <th></th>
+                    <th>8-10</th>
                     <th>LUNES</th>
                     <th>MARTES</th>
                     <th>MIERCOLES</th>
@@ -83,11 +103,12 @@
                 </tr>
 
                 <tr>
-                    <td>LUNES</td>
-                    <td>MARTES</td>
-                    <td>MIERCOLES</td>
-                    <td>JUEVES</td>
-                    <td>VIERNES</td>
+                    <td></td>
+                    <td>Quimica</td>
+                    <td>Fisica</td>
+                    <td>Quimica</td>
+                    <td>Matematicas</td>
+                    <td>Matematicas</td>
                 </tr>
 
             </table>
