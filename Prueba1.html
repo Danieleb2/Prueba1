@@ -7,6 +7,7 @@
     <title>Primer ejercicio</title>
     <!--llamar una hoja de estilos de otro archivo(recomendado)-->
     <link rel="stylesheet" href="css/ejemplo1.css" />
+    <!--Estilo en dentro de un style-->
      <style>
         input[type=text]{
             width: 300px
@@ -36,9 +37,9 @@
 
         </div>
         <div class="caja-menu">
-            
+
         </div>
-        <p> texto dentro de un div</p>
+        <p id="parrafo1"> texto dentro de un div</p>
     </div>
 
 
@@ -65,6 +66,7 @@
         <center>
             <h1>EJEMPLO FORMULARIO</h1>
             <form>
+                <!--Estilo agregado desde la etiqueta label-->
                 <label id="label_nombre_libro" for="nombre_libro" style="width: 40%;color: black; background-color: brown;>Ingresar nombres</label>
                 <input id="nombre_libro" type="text" placeholder="Ingresar nombres en el placeholder" required="true" size="50px"   /> 
                 <br /><br />
