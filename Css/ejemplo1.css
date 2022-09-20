@@ -1,6 +1,7 @@
 body{
 
     background-color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 header{
     background-color: white;
@@ -169,4 +170,116 @@ footer{
     height: 220px;
     float:left;
     background-color: lightblue;
+}
+
+
+#caja-publicidad{
+    width: 100%;
+    height: 220px;
+  /*  background-color: antiquewhite;*/
+}
+
+#caja-publicidad1{
+    width: 33%;
+    height: 220px;
+    /*background-color:brown;*/
+    float: left;
+    margin-right: 5px;
+}
+
+#caja-superior{
+    width: 100%;
+    height: 60px;
+   /* background-color: cadetblue;*/
+    float: left;
+    
+}
+
+#caja-superior1{
+    width: 70%;
+    height: 60px;
+    /*background-color: orange;*/
+    float:left;
+    /*padding-left: 10px;*/
+    font-family: 'Ubuntu', sans-serif;
+ 
+}
+#caja-superior2{
+    width: 30%;
+    height: 60px;
+    /*background-color: yellow;*/
+    float:left;
+    font-family: 'Ubuntu', sans-serif;
+    
+    color: magenta;
+    position: relative;
+}
+
+#caja-superior2 span{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#caja-media{
+    width: 100%;
+    height: 120px;
+    /*background-color:cornflowerblue;*/
+    float:left;
+}
+
+#caja-media1{
+    width: 50%;
+    height: 120px;
+    /*background-color:aqua;*/
+    float:left;
+
+}
+#caja-media2{
+    width: 50%;
+    height: 120px;
+    /*background-color:darkgreen;*/
+    float: left;
+}
+#caja-inferior{
+    width: 100%;
+    height: 40px;
+    /*background-color:gold;*/
+    float:left;
+    position: relative;
+}
+
+.boton1{
+    width: 30%;
+    height: 30px;
+    background-color: orangered;    
+    border: none;
+}
+
+#caja-inferior .boton1{
+    position: absolute;
+    left:85%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    -webkit-transform: translate(-50%, -20%);
+}
+
+
+
+#caja-publicidad2{
+    width: 33%;
+    height: 220px;
+    /*background-color:royalblue;*/
+    float: left;
+    margin-right: 5px;
+}
+
+#caja-publicidad3{
+    width: 33%;
+    height: 220px;
+    /*background-color:rosybrown;*/
+    float: left;
+
 }
