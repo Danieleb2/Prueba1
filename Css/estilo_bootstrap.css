@@ -74,17 +74,18 @@ ul li a:hover{
     -webkit-transform: translate(-50%, -50%);
 }
 
+
 .formulario1 {
-    height: 200px;
+    height: 800px;
     /*background-color: aquamarine;*/
 }
 .formulario2{
-    height: 200px;
+    height: 800px;
     /*background-color:wheat;*/
 }
 
  .formulario3{
-    height: 200px;
+    height: 800px;
    /* background-color: indianred;*/
 }
 
@@ -111,6 +112,21 @@ ul li a:hover{
     color: white;
     border: none;
 
+}
+
+.alinear{
+    text-align: center;
+    color: blue;
+}
+
+
+.caja_materias{
+    text-align: center;
+    background-color: crimson;
+}
+
+p{
+    font-size: 20px;
 }
 
 
